@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Trainline" parallel="tests">
+    <test name="registerFlow1">
+        <classes>
+           <class name="com.trainline.tests.TfwRegistrationTest" />
+        </classes>
+    </test>
+    <test name="registerFlow2">
+        <classes>
+            <class name="com.trainline.tests.TrainlineRegistrationTest" />
+        </classes>
+    </test>
+
+
+</suite>

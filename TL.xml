@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Trainline">
+    <test name="registerFlow">
+        <classes>
+           <class name="com.trainline.tests.TrainlineRegistrationTest" />
+        </classes>
+    </test>
+</suite>
